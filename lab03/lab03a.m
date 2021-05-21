@@ -1,0 +1,1 @@
+clc;N = 16;fs = 10;rfreq = gen_rfreq(N, fs);disp("rfreq:"); disp(rfreq);cfreq = gen_cfreq(N, fs);disp("cfreq:"); disp(cfreq);subplot(2,1,1);plot(rfreq);title('rfreq');subplot(2,1,2);plot(cfreq,"*");title('cfreq');
